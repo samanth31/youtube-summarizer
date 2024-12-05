@@ -1,3 +1,5 @@
+import nltk
+nltk.download('punkt')
 import streamlit as st
 from youtube_transcript_api import YouTubeTranscriptApi, TranscriptsDisabled, NoTranscriptFound
 from nltk.tokenize import word_tokenize
