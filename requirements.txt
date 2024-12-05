@@ -1,9 +1,0 @@
-
-streamlit
-nltk
-youtube-transcript-api
-scikit-learn
-transformers
-textblob
-tensorflow
-torch
