@@ -1,5 +1,3 @@
-!pip install youtube-transcript-api # Install the required module
-
 import streamlit as st
 from youtube_transcript_api import YouTubeTranscriptApi, TranscriptsDisabled, NoTranscriptFound
 from nltk.tokenize import word_tokenize
