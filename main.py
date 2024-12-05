@@ -12,8 +12,6 @@ from textblob import TextBlob
 import re
 import nltk
 
-# ... (rest of your code) ...
-
 # Lazy loading for NLTK resources
 def ensure_nltk_resources():
     nltk.download('punkt', quiet=True)
